@@ -1,3 +1,9 @@
+javaScript groupBy
+========
+
+> Javascript utility to group JSON objects by object key, 
+>> using jQuery to filter array objects;
+
 ```javascript
   	$(document).ready(function () {
   		var personnel = new Person();
