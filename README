@@ -1,8 +1,4 @@
-````javascript
-#Javascript UTIL to group by JSON objects by key 
-##required jQuery
-  <script language="javascript" type="text/javascript">
-
+```javascript
   	$(document).ready(function () {
   		var personnel = new Person();
   		personnel.name = "John Doe";
@@ -42,5 +38,4 @@
     	this.gender = "";
     }
 
-    </script>
-````
+```
