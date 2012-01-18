@@ -1,6 +1,6 @@
-# Javascript UTIL to group by JSON objects by key
-
-````
+````javascript
+#Javascript UTIL to group by JSON objects by key 
+##required jQuery
   <script language="javascript" type="text/javascript">
 
   	$(document).ready(function () {
@@ -31,7 +31,8 @@
   		list.push(personnel2);
   		list.push(personnel3);
   		list.push(personnel4);
-  		console.log(list._group("gender"));
+  		
+  		list._group("gender");
   		return;
 
   	});
