@@ -33,8 +33,12 @@ javaScript groupBy
   		list.push(personnel2);
   		list.push(personnel3);
   		list.push(personnel4);
-  		
+
+		###	 Group BY
   		list._group("gender");
+  		
+  		### Sort
+  		list._group("gender").Male._sort("name");
   		return;
 
   	});
