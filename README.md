@@ -3,6 +3,7 @@ javaScript groupBy
 
 > Javascript utility to group JSON objects by object key, 
 ## using jQuery to filter array objects;
+## Plain old bubble sort _.sort to sort JSON objects
 
 ```javascript
   	$(document).ready(function () {
@@ -34,10 +35,10 @@ javaScript groupBy
   		list.push(personnel3);
   		list.push(personnel4);
 
-		###	 Group BY
+		//###	 Group BY
   		list._group("gender");
   		
-  		### Sort
+  		//### Sort
   		list._group("gender").Male._sort("name");
   		return;
 
