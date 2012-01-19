@@ -29,3 +29,18 @@ Array.prototype._filter = function(filterBy, filterValue){
 		return key[filterBy] === filterValue;
 	});
 }
+
+
+Array.prototype._sort = function (sortBy) {
+	var outer, inner, temp;
+	var srcList = this;
+	for (outer = srcList.length - 1; outer > 0; outer--) {  
+		for (inner = 0; inner < outer; inner++) {
+			if (srcList[inner][sortBy] > srcList[inner + 1][sortBy]) {
+				temp = srcList[inner];
+				srcList[inner] = srcList[inner + 1];
+				srcList[inner + 1] = temp;
+			}
+		}
+	}
+}
